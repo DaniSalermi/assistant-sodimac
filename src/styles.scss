@@ -27,6 +27,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+button {
+  box-sizing: none;
+  border: none;
+}
 
 .big-button {
   background-color: var(--secondary-color);
@@ -36,5 +44,16 @@ a {
   border-radius: 7px;
   text-align: center;
   font-size: 30px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 8px 20px;
+  width: 30%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 18px;
   font-weight: bold;
 }
