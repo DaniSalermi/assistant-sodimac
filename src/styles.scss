@@ -49,6 +49,7 @@ button {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -59,6 +60,7 @@ button {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.2);
 }
 input {
   border: 1px solid #c4c4c4;
@@ -66,4 +68,3 @@ input {
   background-color: #ffffff;
   padding: 15px;
 }
-
