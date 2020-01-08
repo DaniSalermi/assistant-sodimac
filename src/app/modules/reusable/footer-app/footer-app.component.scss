@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--main-color);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  svg {
+    max-height: 20px;
+    width: auto;
+    fill: white;
+    padding-right: 5px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+  }
+}
