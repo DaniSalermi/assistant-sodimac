@@ -28,8 +28,11 @@ a {
   color: inherit;
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
+}
+h2 {
+  font-size: 26px;
 }
 button {
   box-sizing: none;
@@ -41,7 +44,7 @@ button {
   color: white;
   padding: 50px 30px;
   width: 30%;
-  border-radius: 7px;
+  box-shadow: 1px;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
@@ -51,9 +54,15 @@ button {
   background-color: var(--secondary-color);
   color: white;
   padding: 8px 20px;
-  width: 30%;
-  border-radius: 7px;
+  width: 100%;
+
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+}
+input {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
 }
