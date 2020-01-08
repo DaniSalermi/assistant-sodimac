@@ -1,5 +1,6 @@
 :root {
   --main-color: #66afe7;
+  --secondary-color: #dd0021;
 }
 
 body {
@@ -13,7 +14,27 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
   font-weight: normal;
   margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+.big-button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 50px 30px;
+  width: 30%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
