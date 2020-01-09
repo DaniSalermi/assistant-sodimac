@@ -13,11 +13,9 @@ export class WaitlistService {
   items: Observable<any[]>;
 
   constructor(private firebase: AngularFirestore) {
-    this.itemsCollection = firebase.collection<any>("locales");
+    this.itemsCollection = firebase.collection<any>("planningLists");
     this.items = this.itemsCollection.valueChanges();
-    this.items.subscribe(locales => {
-      console.log(locales);
-    });
+    this.items.subscribe(e => console.log(e));
   }
 
   getWaitlistFromHall(hallNumber) {
