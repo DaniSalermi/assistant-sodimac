@@ -7,6 +7,7 @@ import { ReusableModule } from "./modules/reusable/reusable.module";
 import { environment } from "src/environments/environment";
 import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { AngularFireModule } from "@angular/fire";
+import { AngularFireMessagingModule } from "@angular/fire/messaging";
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,7 +16,8 @@ import { AngularFireModule } from "@angular/fire";
     AppRoutingModule,
     ReusableModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    AngularFireMessagingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
