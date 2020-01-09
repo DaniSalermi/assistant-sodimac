@@ -1,15 +1,12 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { AssistanceRoutingModule } from './assistance-routing.module';
-import { RequestHelpComponent } from './request-help/request-help.component';
-
+import { AssistanceRoutingModule } from "./assistance-routing.module";
+import { RequestHelpComponent } from "./request-help/request-help.component";
+import { ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [RequestHelpComponent],
-  imports: [
-    CommonModule,
-    AssistanceRoutingModule
-  ]
+  imports: [CommonModule, AssistanceRoutingModule, ReactiveFormsModule]
 })
-export class AssistanceModule { }
+export class AssistanceModule {}

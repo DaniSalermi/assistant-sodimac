@@ -4,13 +4,23 @@
   </div>
   <div class="hall">
     <h2>Pasillo</h2>
-    <input type="number" placeholder="En que pasillo te encuentras. Ej: 2" />
+    <input
+      type="number"
+      placeholder="En que pasillo te encuentras. Ej: 2"
+      [formControl]="hall"
+    />
   </div>
   <div class="name">
-    <h2>Nombre</h2>
-    <input type="text" placeholder="Ingresa tu nombre" />
+    <h2>Nombre del cliente</h2>
+    <input
+      type="text"
+      placeholder="Ingresa tu nombre"
+      [formControl]="clientName"
+    />
   </div>
   <div class="request-button">
-    <button class="big-button">Solicitar asistencia</button>
+    <button class="big-button" (click)="saveClient()">
+      Solicitar asistencia
+    </button>
   </div>
 </div>
